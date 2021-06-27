@@ -1,0 +1,108 @@
+
+h3{
+    color: lightcoral;
+    border: 2px solid dimgray;
+   background-color: dimgrey;
+}
+.menu{
+
+    display:flex;
+    justify-content: center;
+    background-color: dimgray;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: black;
+    
+    
+}
+body{
+    background-color: dimgray;
+    
+}
+p{
+   
+    font-family: comic sans ms;
+    font-weight: italic;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-stretch: expanded;
+}
+.grid img{
+    border: dotted;
+ 
+}
+.origami {
+    border: black;
+    border-radius: 0%;
+    background-color: dimgray;
+    /*margin: 0%;
+    width: 0%;*/
+    font-family: 'Courier New', Courier, monospace;
+  
+}
+
+.heading{
+    position:absolute;
+    text-align:top;
+    top: 44%;
+    left: 50%;
+    color:white;
+   transform: translate(-50%, -60%);
+}
+
+.desc {
+ 
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ol,ul{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    color: #FFFF;
+}
+body{
+    margin: 0px;
+    background-color: #f2f2f2;
+}
+.grid img{
+    border: 2px;
+    border-radius: 20px;
+}
+.origami{
+    border-radius: 20px;
+    background-color: #FFFF;
+    padding: 30px   ;
+    margin: 25px;
+    width: 310px;
+    font-family: fantasy;
+}
+
+a:link{
+    color: #FFFF;
+}
+
+a:visited{
+    color:darkslateblue
+}
+
+.origami:hover{
+    transform:scale(1.5,1.5)
+}
+
